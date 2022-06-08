@@ -16,3 +16,6 @@ Bike_brands.push("norco", "revel")
 Bike_frame_sizes.unshift(15)
 
 #Index positions: the sequential list of numbers within an array ALWAYS starting at 0. i.e. the index position of "giant" in the variable above is 2 (not 3)!
+
+#removes a value if the element does not meet the criteria
+Bike_wheel_sizes.delete if {|Bike_wheel_sizes| Bike_wheel_sizes < 28}
