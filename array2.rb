@@ -14,3 +14,5 @@ Bike_brands.push("norco", "revel")
 
 #allows addition of an element as element[0]
 Bike_frame_sizes.unshift(15)
+
+#Index positions: the sequential list of numbers within an array ALWAYS starting at 0. i.e. the index position of "giant" in the variable above is 2 (not 3)!
